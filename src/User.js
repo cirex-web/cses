@@ -40,9 +40,9 @@ const User = ({ id }) => {
       });
       var el = document.createElement("html");
       let txt = await response.text();
-      if(txt){
+      el.innerHTML = txt;
+      if(txt&&el){
         
-        el.innerHTML = txt;
         setNumSolved(
           parseInt(
             el.querySelector(`[href='/problemset/user/${id}/']`).innerHTML
