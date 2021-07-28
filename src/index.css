@@ -1,21 +1,5 @@
-html{
-  height: 100%;
-}
-body {
 
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-h1{
-  font-weight: 100;
-}
-.user-container{
-  flex-grow: 1;
-  font-size: 40px;
-}
+
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   display: inline-block;
   vertical-align: middle;
