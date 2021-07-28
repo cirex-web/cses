@@ -60,7 +60,7 @@ const User = ({ id }) => {
     setTimeout(() => {
       setTimesRendered(timesRendered + 1);
     }, 1000);
-  }, []);
+  }, [timesRendered]);
 
   return (
     <div className={css.userContainer}>
